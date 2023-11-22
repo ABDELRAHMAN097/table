@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #F1EFEF;
+    border-bottom: 2px solid #1D8387;
+    padding: 4px 10px;
+    
+}
+section{
+    padding: 10px;
+}
+section div{
+    padding: 0 20px;
+}
+ol li{
+    color: #185C91;
+    font-weight: 700;
+}
+.main-content{
+    padding: 10px 20px;
+}
+.main-content p{
+    padding: 10px 0px;
+}
+.main-content ul{
+
+    color:#1D8387;
+    padding: 0 10px;
+}
+
+table{
+    margin: 50px auto;
+    text-align: center;
+    border: #185C91 1px solid;
+}
+tr,td,th{
+    padding: 10px;
+    border: #185C91 1px solid;
+
+}
+.item{
+    background-color: #185C91;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.table-school{
+    width: 80%;
+}
+.school-input{
+    text-align: right;
+}
+span{
+    color: red;
+}
+input{
+    width: 90%;
+    height: 100%;
+}
+.header-tabel{
+    background-color: rgb(161, 159, 159);
+    padding:20px 0 ;
+}
+
+
