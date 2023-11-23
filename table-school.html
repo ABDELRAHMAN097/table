@@ -12,7 +12,7 @@
   />
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color: rgb(219, 222, 224);">
 
      <!-- the navbar -->
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,6 +31,8 @@
           </div>
         </div>
       </nav>
+
+      <!-- theTableOne -->
 
       <table class="table-school">
         <thead>
@@ -107,13 +109,124 @@
            </tr>
 
            <tr>
-            <td colspan="4">jjj<input type="checkbox"></td>
+            <td colspan="4">
+              <div class="check">
+                <p>موافقة ولي الامر</p>
+                <input type="checkbox">
+              </div>
+              <p>اقر بان جميع البيانات التي تم استيفائها صحيحه وسوف يتم تقديم المستندات الداله علي صحة البيانات ضمن التقديم و هذا اقرار مني بذلك</p>
+            </td>
            </tr>
             
         </tbody>
       </table>
 
+      <div class="buttons">
+      <button class="btn">التالي</button>
+      </div>
 
+      <!-- theTableTow -->
+      <table class="table-school">
+        <thead>
+            <tr>
+                <th class="school-input" ><input type="text"></th>
+                <th colspan="4"><span>*</span>اسم الطفل بالكامل</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+           <td class="school-input"><input type="text"></td>
+           <td colspan="4" ><span>*</span>الرقم القومي لولي الامر</td>
+          </tr>
+
+          <tr>
+            <td class="school-input"><input type="text"></td>
+            <td colspan="4" ><span>*</span>الرقم القومي للطفل</td>
+           </tr>
+
+           <tr>
+            <td class="school-input">
+              <select name="gender" id="">
+                <option value="gender">ذكر</option>
+                <option   value="gender">انثي</option>
+              </select>
+            </td>
+
+            <td colspan="4" ><span>*</span>النوع</td>
+           </tr>
+
+           <tr>
+            <td class="school-input"><input type="text"></td>
+            <td colspan="4" ><span>*</span>تاريخ الميلاد </td>
+           </tr>
+
+           <tr>
+            <td>
+              <div class="tims">
+               <input type="text"> <p>اليوم</p>
+               <input type="text"> <p>الشهر</p>
+               <input type="text">  <p>السن</p>
+            </div>
+            </td>
+            <td>السن اول اكتوبر</td>
+           </tr>
+
+           <tr>
+            <td><input type="text" name="your_input" placeholder="القاهره"></td>
+            <td>محافظة الاقامه</td>
+           </tr>
+
+           <tr>
+            <td><input type="text"></td>
+            <td><span>*</span>العنوان</td>            
+           </tr>
+
+           <tr>
+            <td><input type="text"></td>
+            <td><span>*</span>المحمول</td>            
+           </tr>
+
+           <tr>
+            <td><input type="text"></td>
+            <td>التليفون</td>            
+           </tr>
+
+           <tr>
+            <td class="school-input">
+              <select name="" id="">
+                <option value=""disabled hidden selected>اختر الاداره</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option disabled value="">4</option>
+              </select>
+            </td>
+            <td colspan="4" ><span>*</span>الاداره</td>
+           </tr>
+
+           <tr>
+            <td class="school-input">
+              <select name="" id="">
+                <option value=""disabled hidden selected>اختر المدرسه</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option disabled value="">4</option>
+              </select>
+            </td>
+            <td colspan="4" ><span>*</span>المدرسه</td>
+           </tr>
+
+           <tr>
+            <td colspan="4">
+              <div class="check">
+                <p>موافقة ولي الامر</p>
+                <input type="checkbox">
+              </div>
+              <p>اقر بان جميع البيانات التي تم استيفائها صحيحه وسوف يتم تقديم المستندات الداله علي صحة البيانات ضمن التقديم و هذا اقرار مني بذلك</p>
+            </td>
+           </tr>
+            
+        </tbody>
+      </table>
     <!-- bootstrap links -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
